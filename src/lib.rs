@@ -152,10 +152,6 @@ pub fn decode(card: &[u16]) -> Result<String, String> {
     Err("No carriage return found".to_string())
 }
 
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
