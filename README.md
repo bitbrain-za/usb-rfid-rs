@@ -1,5 +1,3 @@
-# [WIP]
-
 # Overview
 
 Simple function to parse raw hex data from something like /dev/hidraw0 and return a card number.
@@ -9,7 +7,7 @@ Works from products such as [this](https://www.amazon.com/Reader-125KHz-Proximit
 
 ```toml
 [dependencies]
-usb-rfid-decoder = "1.0"
+usb-rfid-decoder = "0.2.0"
 ```
 
 ```rust
